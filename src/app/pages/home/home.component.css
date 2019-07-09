@@ -1,0 +1,6 @@
+.home{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-image: linear-gradient(to top, #1f0593, #450197, #60009a, #77009d, #8c05a0);
+}

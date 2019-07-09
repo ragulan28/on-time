@@ -7,6 +7,7 @@ import {MaterialModule} from './material.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {PagesComponent} from './pages/pages.component';
 import {PagesModule} from './pages/pages.module';
+import {SharedModule} from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import {PagesModule} from './pages/pages.module';
     PagesComponent
   ],
   imports: [
+    SharedModule,
     PagesModule,
     MaterialModule,
     BrowserAnimationsModule,
