@@ -84,7 +84,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/custom-theme.scss"
             ],
             "scripts": []
           }
@@ -116,5 +117,21 @@
         }
       }
     }},
-  "defaultProject": "on-time"
+  "defaultProject": "on-time",
+  "schematics": {
+    "@schematics/angular": {
+      "component": {
+        "spec": false
+      },
+      "service": {
+        "spec": false
+      },
+      "model": {
+        "spec": false
+      },
+      "class": {
+        "spec": false
+      }
+    }
+  }
 }
